@@ -26,5 +26,5 @@ tasks.register('cucumber', Test) {
     group = 'verification'
     useJUnitPlatform()
 
-    include '*src/test/java/TestRunner.class'
+    include '*src/test/java/CucumberRunner.java'
 }

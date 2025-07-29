@@ -8,11 +8,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  run automation:
-
+  run-automation:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
 
     steps:
     - uses: actions/checkout@v4

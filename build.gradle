@@ -20,3 +20,11 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+tasks.register('cucumber', Test) {
+    description = 'Runs Cucumber tests'
+    group = 'verification'
+    useJUnitPlatform()
+
+    include '*src/test/java/TestRunner.class'
+}

@@ -1,3 +1,5 @@
+@web
+
 Feature: Login to Saucedemo
 
   Scenario: Sign Up with accepted username and password

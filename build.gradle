@@ -16,6 +16,8 @@ dependencies {
     testImplementation 'io.cucumber:cucumber-junit:7.26.0'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
     testImplementation 'io.rest-assured:rest-assured:5.5.5'
+    testImplementation group: 'org.json', name: 'json', version: '20250517'
+    testImplementation group: 'org.testng', name: 'testng', version: '7.11.0'
 }
 
 test {

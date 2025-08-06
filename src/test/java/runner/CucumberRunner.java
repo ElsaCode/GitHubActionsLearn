@@ -9,7 +9,7 @@ public class CucumberRunner {
     @RunWith(Cucumber.class)
     @CucumberOptions(
             features = "src/test/resources/features",
-            glue = "stepdefinitions",
+            glue = "web/features/pages/stepdefinition/stepdefinitions",
             plugin = {"pretty", "html:target/cucumber-reports.html"}
     )
     public class TestRunner {

@@ -57,7 +57,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v4
       with:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PUBLISH_DIR: build/reports/report.html
+        PUBLISH_DIR: build/reports/tests/
 
   web-tests:
     name: Run Web Tests (@web)
